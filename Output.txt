@@ -1,0 +1,153 @@
+Perform an ADD_PATIENT operation
+The patient Omar Abdulaziz is registered!
+ --------------------
+Perform an ADD_PATIENT operation
+The patient Omar Abdulaziz is already registered!
+ --------------------
+Perform an ADD_PATIENT operation
+The patient Maha Ahmad is registered!
+ --------------------
+Perform an ADD_PATIENT operation
+Instruction (ADD_PATIENT) needs 7 parameters
+ --------------------
+Perform an ADD_PATIENT operation
+The patient Manal Mohammad is registered!
+ --------------------
+Perform an ADD_PATIENT operation
+The patient Mohammad Talal is registered!
+ --------------------
+Perform an ADD_PATIENT operation
+The patient Yousef Samir is registered!
+ --------------------
+Perform an UPDATE_VACCINE operation
+The patient (ID#16453) received Dose1 of the vaccine
+ --------------------
+Perform an UPDATE_VACCINE operation
+The patient (ID#16453) already received Dose1 of the vaccine
+ --------------------
+Perform an UPDATE_VACCINE operation
+The patient (ID#97685) is not registered
+ --------------------
+Perform an UPDATE_VACCINE operation
+The patient (ID#16453) received Dose2 of the vaccine
+ --------------------
+Perform an UPDATE_VACCINE operation
+The patient (ID#75363) must take the Dose 1 first
+ --------------------
+Perform an UPDATE_VACCINE operation
+The patient (ID#75363) received Dose1 of the vaccine
+ --------------------
+Perform a FIND_By_NAME operation
+The patient: Yousef Samir is registered
+The Patient ID: 11346
+The Patient Name: Yousef Samir
+The Patient City: Riyadh
+The Vaccination Status: Unvaccinated
+ --------------------
+Perform a FIND_By_NAME operation
+The patient: Mona Ahmad is not registered
+ --------------------
+Perform a FIND_By_ID operation
+The patient: (ID#75363) is registered
+The Patient Name: Maha Ahmad
+The Patient City: Jeddah
+The Vaccination Status: Vaccinated
+ --------------------
+Perform a FIND_By_ID operation
+The patient: ID#94455 is invalid
+ --------------------
+Perform a FIND_By_ID operation
+Instruction (FIND_By_ID) needs 1 parameter
+ --------------------
+Perform a DELETE_PATIENT operation
+The patient Mohammad Talal is deleted!
+ --------------------
+Perform a DELETE_PATIENT operation
+The patient: Lana Ahmad is not registered!
+ --------------------
+Perform a DELETE_PATIENT operation
+The patient Maha Ahmad received the vaccine and he/she can't deleted from the system!
+ --------------------
+Perform a DELETE_PATIENT operation
+Instruction (DELETE_PATIENT) needs 2 parameters
+ --------------------
+Perform a PRINT_RECORD operation
+ --------------------
+The Patient ID: 76584
+The Patient Name: Manal Mohammad
+The Patient Gender: F
+The Patient Age: 44
+The Patient phone: 540022244
+The Patient City: Riyadh
+The Vaccination Status: Unvaccinated
+The Vaccination Dose 1: 0
+The Vaccination Dose 2: 0
+ +++++++++++++++
+
+Perform a PRINT_RECORD operation
+The patient: Ahmad Omar is not registered!
+ --------------------
+Perform a PRINT_CITY operation
+The city: Jeddah
+The Vaccinated cases:1 cases
+ --------------------
+Perform a PRINT_CITY operation
+The city: Makkah
+The Unvaccinated cases:0 cases
+ --------------------
+Perform a PRINT_CITY operation
+Instruction (PRINT_CITY) needs 2 parameters
+ --------------------
+FIND_CITY no such operation
+ --------------------
+Perform a PRINT_ALL operation
+ =========================
+ --------------------
+The Patient ID: 11346
+The Patient Name: Yousef Samir
+The Patient Gender: M
+The Patient Age: 60
+The Patient phone: 540007333
+The Patient city: Riyadh
+The Vaccination Status: Unvaccinated
+The Vaccination Dose 1: 0
+The Vaccination Dose 2: 0
+ +++++++++++++++
+
+ --------------------
+The Patient ID: 76584
+The Patient Name: Manal Mohammad
+The Patient Gender: F
+The Patient Age: 44
+The Patient phone: 540022244
+The Patient city: Riyadh
+The Vaccination Status: Unvaccinated
+The Vaccination Dose 1: 0
+The Vaccination Dose 2: 0
+ +++++++++++++++
+
+ --------------------
+The Patient ID: 75363
+The Patient Name: Maha Ahmad
+The Patient Gender: F
+The Patient Age: 50
+The Patient phone: 457475444
+The Patient city: Jeddah
+The Vaccination Status: Vaccinated
+The Vaccination Dose 1: 1
+The Vaccination Dose 2: 0
+ +++++++++++++++
+
+ --------------------
+The Patient ID: 16453
+The Patient Name: Omar Abdulaziz
+The Patient Gender: M
+The Patient Age: 15
+The Patient phone: 558454673
+The Patient city: Makkah
+The Vaccination Status: Vaccinated
+The Vaccination Dose 1: 1
+The Vaccination Dose 2: 1
+ +++++++++++++++
+
+End
